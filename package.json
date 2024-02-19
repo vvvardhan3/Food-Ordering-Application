@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Food Ordering App using React",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest"
@@ -22,8 +24,9 @@
   "bugs": {
     "url": "https://github.com/vvvardhan3/Food-Ordering-Application/issues"
   },
-  "homepage": "https://github.com/vvvardhan3/Food-Ordering-Application#readme",
+  "homepage": "https://github.com/vvvardhan3/Food-Ordering-Application",
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "parcel": "^2.11.0",
     "process": "^0.11.10"
   },

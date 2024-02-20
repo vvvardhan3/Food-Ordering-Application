@@ -1,17 +1,14 @@
 {
+  "homepage": "https://vvvardhan3.github.com.io/Food-Ordering-Application",
   "name": "food-ordering-application",
   "version": "1.0.0",
   "description": "Food Ordering App using React",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "parcel index.html",
     "build": "parcel build index.html",
     "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vvvardhan3/Food-Ordering-Application.git"
   },
   "keywords": [
     "Food",
@@ -24,13 +21,13 @@
   "bugs": {
     "url": "https://github.com/vvvardhan3/Food-Ordering-Application/issues"
   },
-  "homepage": "https://github.com/vvvardhan3/Food-Ordering-Application",
   "devDependencies": {
     "gh-pages": "^6.1.1",
     "parcel": "^2.11.0",
     "process": "^0.11.10"
   },
   "dependencies": {
+    "cosmiconfig": "^8.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }

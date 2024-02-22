@@ -9,8 +9,8 @@ import Error from "./components/Error";
 
 const AppLayout = () => (
   <div className="app">
-    <Header />
-    <About />
+      <Header />
+      <Body />
   </div>
 );
 

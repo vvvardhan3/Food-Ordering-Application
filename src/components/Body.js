@@ -4,9 +4,7 @@ import Shimmer from "./Shimmer";
 
 const Body = () => {
   const [listOfRestaurants, setListOfRestaurant] = useState([]);
-
   const [filteredRestaurant,setFilteredRestaurant] = useState([]);
-
   const [searchText, setSearchtext] = useState("");
 
   useEffect(() => {

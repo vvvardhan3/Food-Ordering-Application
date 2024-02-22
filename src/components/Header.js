@@ -14,13 +14,14 @@ const Header = () => {
         <ul>
           <li>
             <Link to="/">Home</Link>
-            </li>
+          </li>
           <li>
             <Link to="/about">About us</Link>
           </li>
           <li>
-          <Link to="/contact">Contact us</Link>
-            Contact us</li>
+            <Link to="/contact">Contact us</Link>
+            Contact us
+          </li>
           <li>Cart</li>
           <button
             className="login"
